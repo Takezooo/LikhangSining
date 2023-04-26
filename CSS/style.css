@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("night.jpg");
+  background-image: url("/assets/night.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

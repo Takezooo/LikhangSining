@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Likhang Sining</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1>LIKHANG SINING</h1>
+            <ul class="tabs">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+          </div>
+        <div class="body">
+            <button onclick="goToPainting()">PAINTING</button>
+            <button onclick="goToSculp()">SCULPTURE</button>
+            <button onclick="goToSketch()">SKETCH</button>
+            <button onclick="goToCrafts()">CRAFTS</button>
+        </div>
+        <div class="footer">
+            <h2>@LikhangSining</h2>
+        </div>
+    </div>
+    <script>
+        function goToPainting() {
+            window.location.href = "painting.html";
+    }
+    function goToSculp() {
+            window.location.href = "sculp.html";
+    }
+    function goToSketch() {
+            window.location.href = "sketch.html";
+    }
+    function goToCrafts() {
+            window.location.href = "crafts.html";
+    }
+    </script>
+</body>
+</html>

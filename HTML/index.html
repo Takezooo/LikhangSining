@@ -19,14 +19,28 @@
             </ul>
           </div>
         <div class="body">
-            <button>PAINTING</button>
-            <button>SCULPTURE</button>
-            <button>SKETCH</button>
-            <button>CRAFTS</button>
+            <button onclick="goToPainting()">PAINTING</button>
+            <button onclick="goToSculp()">SCULPTURE</button>
+            <button onclick="goToSketch()">SKETCH</button>
+            <button onclick="goToCrafts()">CRAFTS</button>
         </div>
         <div class="footer">
             <h2>@LikhangSining</h2>
         </div>
     </div>
+    <script>
+        function goToPainting() {
+            window.location.href = "painting.html";
+    }
+    function goToSculp() {
+            window.location.href = "sculp.html";
+    }
+    function goToSketch() {
+            window.location.href = "sketch.html";
+    }
+    function goToCrafts() {
+            window.location.href = "crafts.html";
+    }
+    </script>
 </body>
 </html>

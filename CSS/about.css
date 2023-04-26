@@ -31,22 +31,6 @@ h2 {
   color: white;
 }
 
-button {
-  height: 70px;
-  width: 200px;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.3);
-  font-family: "Bebas Neue", cursive;
-  font-size: 30px;
-  border: 0;
-  color: white;
-  transition: all 0.3s ease-in-out;
-}
-
-button:hover{
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
-}
-
 .main-container {
   height: 100vh;
   width: 100vw;
@@ -78,7 +62,7 @@ button:hover{
   list-style: none;
   margin: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .tabs li {
@@ -86,7 +70,7 @@ button:hover{
   padding: 10px;
 }
 
-.tabs li a{
+.tabs li a {
   text-align: center;
   font-family: "Poppins", sans-serif;
   color: white;
@@ -130,6 +114,50 @@ button:hover{
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.about {
+  width: 380px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 10px 50px 6px rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+}
+
+.about h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.about-desc {
+  width: 800px;
+  height: 400px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 10px 5px rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.about-desc p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
 @media screen and (max-width: 961px) {
   .header {
     flex-direction: column;
@@ -140,5 +168,31 @@ button:hover{
 
   .tabs {
     margin-top: 10px;
+  }
+
+  .about {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 50px 6px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .about-desc {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px 5px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
   }
 }
